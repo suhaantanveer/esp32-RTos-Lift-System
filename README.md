@@ -71,8 +71,8 @@ FreeRTOS can hendle the rest of the task based on the emergency flag and when it
 
 # What I Learnt
 
-- Priority queue management
-- RTOS task creation
+- Directional aware scheduling
+- FreeRTOS task creation
 - Finite State Machine
 - Interrupt service Routines
 - Embedded software architecture
