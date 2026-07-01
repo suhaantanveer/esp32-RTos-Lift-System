@@ -65,9 +65,19 @@ If the queue is {2,3,2,5}, the lift would still travell in the following directi
 
 A physical button has been set up for lift's emergencies that can skip the queue and move directly to the Ground floor and clear the queue.
 
-The interrupt function is "interrupting()" that changes a volatile boolean value (emergency flag).
+The interrupt function is changing a volatile boolean value (emergency flag).
 
 FreeRTOS can hendle the rest of the task based on the emergency flag and when it is finished the lift clears the emergency flag.
+
+# How to run
+
+Clone Repository
+
+Open in PlatformIO
+
+Change the name to main.cpp (optional)
+
+Build and Upload
 
 # What I Learnt
 
