@@ -9,7 +9,7 @@ A lift system made with esp32 and FreeRTOS with implementation of finite state m
 
 This project is a 6 floor elevator project aiming to simulate a real lift system as much as possible. The system won't take floor that are below the current floor while going up, the system includes a door open state, if you enter the same floor that the lift is on it will open the door before continuing.
 
-This project was made to learn embedded systems in more detail along side learning task scheduling and FreeRTOS in a trial and error basis.
+This project was built to learn embedded systems in more depth while experimenting with FreeRTOS and task scheduling through trial and error.
 
 # Features
 
@@ -52,6 +52,13 @@ This project was made to learn embedded systems in more detail along side learni
 - MOVING_DOWN
 - DOOR_OPEN
 - EMERGENCY
+
+# Challenges
+
+- Designing the scheduler that behaves like an real lift instead of just visiting the nearest floor, it needs to be aware of its direction.
+- Seperating one loop into two different task, managing variables that matches each and not letting it overlap
+- Learning how to use FreeRTOS tasks without introducing shared-state problems
+- Adding interrupt service while keeping the function minimal.
 
 # Scheduling Logic 
 
