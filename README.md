@@ -1,9 +1,9 @@
 # esp32-RTos-Lift-System
 A lift system made with esp32 and FreeRTOS with implementation of finite state machine, directional floor queueing (Lift will not queue upper floor if it is going down), an interrupt based emergency button that can cancel the queue and bring the lift to ground floor and an OLED interface.
 
-![Lift Interface](images/Lift_on_front.jpeg)
+![Lift Interface](Images/Lift_on_front.jpeg)
 
-[Demo Video](images/Lift_half_demo.mp4)
+[Demo Video](Images/Lift_half_demo.mp4)
 
 # Overview
 
@@ -39,11 +39,11 @@ This project was made to learn embedded systems in more detail along side learni
 - OLED Display 0.96 SSD1306.
 - Breadboard and Jumper Wires.
 
-![Lift Wiring](images/Lift_up_back.jpeg)
+![Lift Wiring](Images/Lift_up_back.jpeg)
 
 # Finite State Machine
 
-![Finite State Machine](images/Finite_State_Machine.jpeg)
+![Finite State Machine](Images/Finite_State_Machine.jpeg)
 
 # Elevator States
 
@@ -80,7 +80,7 @@ FreeRTOS can hendle the rest of the task based on the emergency flag and when it
 - GPIO programming
 - OLED interfacing and I2C communication protocol
 
-[Demo Full Video](images/Lift_full_demo.mp4)
+[Demo Full Video](Images/Lift_full_demo.mp4)
 
 # Author
 
